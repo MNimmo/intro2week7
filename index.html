@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Introspect</title>
+	<link rel="stylesheet" type="text/css" href="Introspect.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+ 
+</head>
+<body>
+	<ul>
+	  	<li><a href="#About" Click to move to ID 'About'>About</a></li> 
+	  	<li><a href="#Gallery" Click to move to ID 'Gallery'>Gallery</a></li>
+	  	<li><a href="#Events" Click to move to ID 'Events'>Events</a></li>
+	  	<li><a href="#Featured" Click to move to ID 'Featured'>Featured In</a></li>
+	  	<li><a href="#Involved" Click to move to ID 'Involved'>Get Involved</a></li>
+	  	<li><a href="#Contact" Click to move to ID 'Contact'>Contact Us</a></li>
+	</ul> 
+	<div class="logo">
+		<img src="IntrospectLogoTop.jpg" width="77.5%">
+		<img src="IntrospectLogoBottom.jpg" width="77.5%">
+		</div>
+	<h2 id="About"> What do we do? </h2> <!-- I found a help guide on stackoverflow which said to add an id to every header coresponding to the href in the nav bar list, so that when clicked on it should jump straight to that section of the page. Sorry if this doesn't work straight away, I'm still playing around with it - Mhari x -->
+	<p>
+		Art exhibition in St Andrews aiming to reduce the stigma and fear around mental health, and raise awareness for differences in experiences and perceptions.
+	</p>
+
+	<h2 id="Gallery">Gallery</h2>
+
+	<form class="gl">
+		<div id="buttonboxprevious"><a>Previous</a></div>
+	</form>
+
+	<form class="gl">
+		<img id="photo" src="IntrospectPhoto1.jpg" width="700px" height="450px" alt="">
+
+	</form>
+
+	<form class="gl">
+		<div id="buttonboxnext"><a>Next</a></div>
+	</form>
+
+	<script src="Introspect.js"></script>
+
+	<br />
+
+	<h2 id="Events">Events</h2>
+
+		<p> Check out our previous events here!</p>
+		<br /> <p> 2017 </p> <!-- Add in photos? Where and when? -->
+		<br /> <p> 2016 </p>
+		<br />
+
+	<h2 id="Featured">Featured In</h2>
+
+<ul2>
+	  	<li1> Check out what The Stand had to say about our event: <a href="https://thestand-online.com/2017/02/18/a-perspective-on-introspect/"> A Perspective on Introspect</a></li1>
+
+	  	<li1> We also have this lovely review courtesy of St.Art Magazine: <a href="https://www.st-artmagazine.com/artsandculture/2017/3/29/art-and-mental-health"> Art and Mental Health </a></li1>
+
+ <br />
+
+<div class="articles">
+   		<p>"The art being displayed conveyed certain deep emotions that really connected me to the experience of the artist. And this made me realise that as such a complex issue, the feeling surrounding mental illness can be something which we find difficult to express. The artwork within the exhibition was an emotional outlet, and is a part of a much wider movement to de-stigmatise mental illness. This can only become reality through better understanding and the basic and necessary acceptance that, for a hell of a lot of people, this is a natural part of life - and that's totally okay!" (Article by Maria Vint). </p>
+
+		 <p> "The amount of work submitted was very impressive. Some works had the names of their artists printed underneath with small captions explaining how the artwork came to life and what it was reflecting. What struck me as very interesting and surprising was that it is very difficult to admit to having a mental health problem in a society where anything different is usually poked fun at or cast aside. For people to embrace their differences and to express them through art doesn't just help mental health sufferers to cope with their problems, but it also encourages people who do not experience these problems to feel connected to those that do." (Article by Ipek Kozanoglu)" </p>
+</div>
+
+
+
+	<h2 id="Involved"> Get Involved</h2>
+
+<p> We're always eager to hear from people who want to get involved with our exhibition. If you have any queries please get in touch using 
+		<br />
+		<br />
+		<br />
+		<br />
+
+	<h2 id="Contact">Contact Us</h2>
+	<div class="container">
+		<div id="formbox">
+			<p> Send us an Email </p>
+			<form action="/action_page.php">
+				<label for="name">Full Name</label>
+			    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+			    <label for="email">Email</label>
+			    <input type="text" id="email" name="Email" placeholder="Your Email">
+			    
+
+			    <label for="subject">Subject</label>
+			    <select id="subject" name="subject" >
+			    	<option value="default">Please choose an option</option>
+			      <option value="eventinfo">Request Event Information</option>
+			      <option value="submission">Submit a piece of artwork</option>
+			      <option value="volunteer">Volunteer to help with event</option>
+			      <option value="other">other</option>
+			    </select>
+
+			    <label for="subject">Message</label>
+				<textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+			    <input type="submit" value="Submit">
+
+ 			</form>
+ 		</div>
+ 		<div id="social">
+ 			<p> Or alternatively find us on social media! </p>
+
+ 			<a href="https://www.facebook.com/Introspectstandrews/" target="_blank">
+				<input type="image" id="facebook" src="facebooklogo.png">
+			</a>
+			<a href="">
+				<input type="image" id="twitter" src="twitterlogo.png" >
+			</a>
+ 
+			</div>
+ 		</div>
+
+
+</body>
+</html>
